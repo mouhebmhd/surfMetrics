@@ -1,0 +1,290 @@
+* {
+  font-family: "maven-pro";
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "indie-flower";
+  src: url("../src/fonts/Manrope/Manrope-ExtraBold.woff") format("woff");
+}
+@font-face {
+  font-family: "lato";
+  src: url("../src/fonts/Roboto/Roboto-Black.woff") format("woff");
+}
+@font-face {
+  font-family: "maven-pro";
+  src: url("../src/fonts/maven-pro/MavenPro-Regular.woff") format("woff");
+}
+.copywrite {
+  font-family: "maven-pro";
+  font-size: 3em;
+}
+.brandName {
+  font-family: "maven-pro";
+  font-size: 1.5em;
+}
+.logo {
+  height: 100px;
+  max-width: 100px;
+}
+
+.element-title-1,
+.element-title-2,
+.element-title-3 {
+  font-family: "maven-pro";
+  font-size: 1.2em;
+  margin-top: 0;
+}
+.element-border-1 {
+  border-left: 5px solid #b734f8;
+  height: 13px;
+  width: 5px;
+}
+.element-border-2 {
+  border-left: 5px solid #fbb118;
+  height: 13px;
+  width: 5px;
+}
+.element-border-3 {
+  border-left: 5px solid #fe7238;
+  height: 13px;
+  width: 5px;
+}
+.element-image-1,
+.element-image-2,
+.element-image-3 {
+  width: 400px;
+}
+label {
+  font-size: 1.1rem;
+
+  color: #fe7238;
+}
+
+.d-flex {
+  column-gap: 2px;
+  row-gap: 5px;
+}
+
+.navbar-brand img {
+  width: 170px;
+}
+.nav-link,
+.icon {
+  font-size: 1.1em;
+  font-family: "maven-pro";
+}
+.nav-link:hover,
+.icon:hover {
+  color: #fe7238;
+}
+
+#logo {
+  width: 250px;
+}
+
+#brandSlogan {
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+@import url("https://fonts.googleapis.com/css?family=Poppins|Ubuntu&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #eee;
+  font-family: "Ubuntu", sans-serif;
+}
+.box {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.our-services {
+  margin-top: 75px;
+  padding-bottom: 30px;
+  padding: 0 60px;
+  min-height: 198px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: all 0.4s ease-in-out;
+  box-shadow: 0 0 25px 0 rgba(20, 27, 202, 0.17);
+}
+.our-services .icon {
+  margin-bottom: -21px;
+  transform: translateY(-50%);
+  text-align: center;
+}
+.our-services:hover h4,
+.our-services:hover p {
+  color: #fff;
+}
+.speedup:hover {
+  box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.05);
+  cursor: pointer;
+  background-image: linear-gradient(-45deg, #fb0054 0%, #f55b2a 100%);
+}
+.settings:hover {
+  box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.05);
+  cursor: pointer;
+  background-image: linear-gradient(-45deg, #34b5bf 0%, #210c59 100%);
+}
+.privacy:hover {
+  box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.05);
+  cursor: pointer;
+  background-image: linear-gradient(-45deg, #3615e7 0%, #44a2f6 100%);
+}
+.backups:hover {
+  box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.05);
+  cursor: pointer;
+  background-image: linear-gradient(-45deg, #fc6a0e 0%, #fdb642 100%);
+}
+.ssl:hover {
+  box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.05);
+  cursor: pointer;
+  background-image: linear-gradient(-45deg, #8d40fb 0%, #5a57fb 100%);
+}
+.database:hover {
+  box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.05);
+  cursor: pointer;
+  background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 100%);
+}
+.companyInfos
+{
+  background-color: white;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 20px;
+  box-shadow: 0 0 25px 0 rgba(20, 27, 202, 0.17);
+
+}
+.companyInfos h4{
+font-weight: 300;
+font-size: 30px;
+}
+.infoTitle
+{
+  font-weight: bold;
+}
+.infoIcon{
+  color: #00008B;
+}
+.navbar-light{
+  background-color: #e0e0ff;
+}
+.dataBox
+{
+  background-color: white;
+  border-radius: 10px;
+  height: fit-content;
+}
+
+.d-flex{
+  row-gap: 0; 
+  column-gap: 0;
+}
+/*first child*/
+.dataBoxFooter
+{
+  border-radius: 10px;
+}
+.dataBox:first-child footer
+{
+  background-color: #FFC107;
+  color: white ;
+}
+
+.dataBoxDesc:first-child
+{
+  color: #FFC107;
+}
+.dataBoxInfo
+{
+  font-size: 50px;
+}
+/*second child*/
+
+.dataBox:nth-child(2) footer
+{
+  background-color: #28A745;
+  color: white ;
+}
+.dataBox:nth-child(2) .dataBoxDesc
+{
+  color: #28A745;
+}
+/*third child*/
+.dataBox:nth-child(3) footer
+{
+  background-color: #DC3545;
+  color: white ;
+}
+.dataBox:nth-child(3) .dataBoxDesc
+{
+  color: #DC3545;
+}
+.dataBoxIcon
+{
+  float: right;
+}
+/*fourth child*/
+.dataBox:nth-child(3) footer
+{
+  background-color: #DC3545;
+  color: white ;
+}
+.dataBox:nth-child(3) .dataBoxDesc
+{
+  color: #DC3545;
+}
+/*fourth child */
+.dataBox:nth-child(4) footer
+{
+  background-color: #17A2B8;
+  color: white ;
+}
+.dataBox:nth-child(4) .dataBoxDesc
+{
+  color: #17A2B8;
+}
+/*fifth child */
+.dataBox:nth-child(5) footer
+{
+  background-color: #B17DD1;
+  color: white ;
+}
+.dataBox:nth-child(5) .dataBoxDesc
+{
+  color: #B17DD1;
+}
+.chartContainer
+{
+  height: 2px;
+}
